@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
         VideoView videoView = (VideoView) findViewById(R.id.videoView);
 
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.drawable.SampleVideo_640x360_1mb);
+        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.test);
 
         videoView.start();
     }
